@@ -1,0 +1,24 @@
+<resources>
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_variant</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:colorAccent">@color/blue</item>
+    </style>
+
+    <style name="CustomDatePickerDialog" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="colorControlActivated">@color/blue</item>
+        <item name="android:colorControlActivated">@color/blue</item>
+        <item name="colorControlHighlight">@color/blue_variant</item>
+        <item name="android:colorControlHighlight">@color/blue_variant</item>
+        <item name="android:datePickerStyle">@style/CustomDatePickerStyle</item>
+    </style>
+
+    <style name="CustomDatePickerStyle" parent="android:Widget.Material.DatePicker">
+        <item name="android:headerBackground">@null</item>
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:calendarViewShown">false</item>
+    </style>
+</resources>
